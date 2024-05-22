@@ -1,0 +1,168 @@
+(footprint "Symbolic_2k_Resistor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c9b3f3c-0b01-4317-a97c-ce3eb52a2944")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2kΩ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0ff6c08e-8c10-43db-a610-fd91f4a3bcbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a5f0b01-c5b9-45d1-a70d-13d36b87ba4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://github.com/HBoyd255/symbolic-component-footprints"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a9d50ac-35d0-494c-ba72-7a80140704d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeeaec2c-d8a4-4f67-a19e-56202bf11a09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 0)
+		(end -6.5 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7de961e7-d859-4339-8430-ab1f082329f9")
+	)
+	(fp_line
+		(start 3.5 0)
+		(end 6.5 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "85e913cd-14d1-444e-8202-f970cd0829e4")
+	)
+	(fp_rect
+		(start -3.5 -1.5)
+		(end 3.5 1.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "99d1c065-9c68-4cfe-a181-c6cd963d8703")
+	)
+	(fp_line
+		(start -6 -2)
+		(end -6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc221d49-90b6-4722-aeb4-9e4e1526468d")
+	)
+	(fp_line
+		(start -6 2)
+		(end 6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09c08160-5211-4a98-85e8-d0ab0070faaf")
+	)
+	(fp_line
+		(start 6 -2)
+		(end -6 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84724323-a47c-459d-a841-43a0ea7d0282")
+	)
+	(fp_line
+		(start 6 2)
+		(end 6 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a1f6c62-fcd7-401b-a232-8a0759684cbd")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "03122d70-850d-45b0-9cda-4615daa285a1")
+	)
+	(pad "2" thru_hole oval
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a06ec8c-74b0-460a-8c34-9f6363bbd7ef")
+	)
+	(model "${Symbolic_Component_Footprints}/3DModels/Symbolic_2k_Resistor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
