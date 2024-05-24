@@ -1,4 +1,4 @@
-(footprint "Symbolic_2k_Resistor"
+(footprint "Symbolic_Resistor"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,10 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "2kΩ"
+	(property "Value" "Symbolic_Resistor"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "0ff6c08e-8c10-43db-a610-fd91f4a3bcbc")
 		(effects
 			(font
@@ -154,7 +155,7 @@
 		(remove_unused_layers no)
 		(uuid "5a06ec8c-74b0-460a-8c34-9f6363bbd7ef")
 	)
-	(model "${Symbolic_Component_Footprints}/3DModels/Symbolic_2k_Resistor.step"
+	(model "Find the right resistor from github.com/HBoyd255/every-e24-resistor"
 		(offset
 			(xyz 0 0 0)
 		)
