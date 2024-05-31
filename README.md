@@ -32,3 +32,10 @@ are 5.6mm apart, equivalent to 2 breadboard holes.
 ![Symbolic Button Footprint](/Images/Symbolic_Button/Footprint.png)
 ![Symbolic Button Silkscreen](/Images/Symbolic_Button/Silkscreen.png)
 
+# Symbolic NPN EBC Transistor
+
+This is a footprint for a generic through hole NPN transistor, such as the
+2N3904. The leg holes are 2.54mm apart, equivalent to 1 breadboard hole.
+
+![Symbolic NPN EBC Transistor](/Images/Symbolic_NPN_EBC_Transistor/Footprint.png)
+![Symbolic NPN EBC Transistor Silkscreen](/Images/Symbolic_NPN_EBC_Transistor/Silkscreen.png)
