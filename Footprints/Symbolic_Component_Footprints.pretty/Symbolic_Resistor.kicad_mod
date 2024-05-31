@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Symbolic_Resistor"
-		(at 0 0 0)
+		(at -5 -15.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0ff6c08e-8c10-43db-a610-fd91f4a3bcbc")
@@ -71,7 +71,7 @@
 		(start -3.5 0)
 		(end -6.5 0)
 		(stroke
-			(width 0.3)
+			(width 0.4)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -81,7 +81,7 @@
 		(start 3.5 0)
 		(end 6.5 0)
 		(stroke
-			(width 0.3)
+			(width 0.4)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -91,7 +91,7 @@
 		(start -3.5 -1.5)
 		(end 3.5 1.5)
 		(stroke
-			(width 0.3)
+			(width 0.4)
 			(type default)
 		)
 		(fill none)
@@ -140,16 +140,16 @@
 	)
 	(pad "1" thru_hole circle
 		(at -5.08 0)
-		(size 1.6 1.6)
-		(drill 0.8)
+		(size 2 2)
+		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "03122d70-850d-45b0-9cda-4615daa285a1")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole circle
 		(at 5.08 0)
-		(size 1.6 1.6)
-		(drill 0.8)
+		(size 2 2)
+		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "5a06ec8c-74b0-460a-8c34-9f6363bbd7ef")

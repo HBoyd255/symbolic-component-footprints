@@ -6,7 +6,7 @@ This is a KiCad library of footprints for a few generic components, where the
 footprints resemble the symbol of the component. This is useful for creating
 PCBs for educational purposes.
 
-In these footprints, the lines that represent connections are 0.3mm wide.
+In these footprints, the lines that represent connections are 0.4mm wide.
 
 ## Symbolic Resistor
 
