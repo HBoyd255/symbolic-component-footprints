@@ -23,3 +23,12 @@ value of the resistor. Step files for every 5 Band e24 resistor can be found at
 Here is an example of a 2k resistor from the
 [e24 collection.](https://github.com/HBoyd255/every-e24-resistor)
 ![2k Resistor 3D Model](/Images/2k_Resistor/3DModel.png)
+
+# Symbolic Button
+
+This is a footprint for a generic through 2 pin tactile button. The leg holes
+are 5.6mm apart, equivalent to 2 breadboard holes.
+
+![Symbolic Button Footprint](/Images/Symbolic_Button/Footprint.png)
+![Symbolic Button Silkscreen](/Images/Symbolic_Button/Silkscreen.png)
+
