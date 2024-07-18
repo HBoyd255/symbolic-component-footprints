@@ -171,6 +171,17 @@
 		(layer "F.SilkS")
 		(uuid "bb9fd95e-6b85-4125-a755-a8887e944878")
 	)
+	(fp_rect
+		(start -5 -5)
+		(end 5 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e6aa4525-c61b-44e9-8d07-9a4bfcc8328f")
+	)
 	(fp_text_box "C\nB\nE"
 		(start 2.25 -4.5)
 		(end 4.75 2)
